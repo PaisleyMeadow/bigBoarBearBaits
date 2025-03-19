@@ -2,28 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/attractants/</loc>
-  </url><url>
-    <loc>http://localhost:1313/extras/</loc>
-  </url><url>
-    <loc>http://localhost:1313/spreads/</loc>
-  </url><url>
-    <loc>http://localhost:1313/trailmixes/</loc>
-  </url><url>
-    <loc>http://localhost:1313/authors/</loc>
+    <loc>http://localhost:1313/products/spreads/artificial-honey/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
-  </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/contact/</loc>
+    <loc>http://localhost:1313/products/spreads/buttercream-blocks/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/fillings/extras/chocolate-pretzels/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/fillings/donut-custard/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/extras/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/fillings/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/spreads/frosting/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/fillings/extras/nuts/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/spreads/nut-butter/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/fillings/peach/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/fillings/pineapple/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/premium-trail-mix/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/</loc>
+  </url><url>
+    <loc>http://localhost:1313/products/fillings/extras/scent-spray/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/spreads/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/1/01/01/trailmix1/</loc>
+    <loc>http://localhost:1313/categories/trail-mixes/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/trailmixes/</loc>
+    <loc>http://localhost:1313/products/fillings/extras/fryer-oil/</loc>
   </url>
 </urlset>

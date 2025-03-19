@@ -5,8 +5,8 @@ languageCode = "en-us"
 defaultContentLanguage = "en"
 
 # Define the number of posts per page
-[pagination]
-    pagerSize = 10
+[params.pagination]
+    pagerSize = 25
 
 # Main menu
 [menu]
@@ -19,12 +19,19 @@ defaultContentLanguage = "en"
 [[menu.main]]
     name       = "Products"
     identifier = "menu.products"
-    url        = "/blog/"
+    url        = "/products/"
     weight     = 2
 
     [[menu.main]]
+        name       = "All Products"
+        identifier = "products.all"
+        url        = "/products"
+        weight     = 1
+        parent     = "menu.products"
+
+    [[menu.main]]
         name       = "Trail Mixes"
-        url        = "/trailMixes"
+        url        = "/categories/trail-mixes/"
         weight     = 1
         parent     = "menu.products"
 
@@ -36,14 +43,20 @@ defaultContentLanguage = "en"
 
     [[menu.main]]
         name       = "Spreads"
-        url        = "/"
+        url        = "/categories/spreads/"
         weight     = 3
+        parent     = "menu.products"
+
+    [[menu.main]]
+        name       = "Fillings"
+        url        = "/categories/fillings/"
+        weight     = 4
         parent     = "menu.products"
 
     [[menu.main]]
         name       = "Extras"
         url        = "/"
-        weight     = 4
+        weight     = 5
         parent     = "menu.products"
 
 [[menu.main]]
@@ -73,10 +86,10 @@ defaultContentLanguage = "en"
     pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 [params]
-    viewMorePostLink = "/blog/"
+    viewMorePostLink = "/products/"
     author = "DevCows"
     defaultKeywords = ["devcows", "hugo", "go"]
-    mainSections = ["blog"]
+    mainSections = ["products"]
     defaultDescription = "Site template made by Devcows using Hugo"
 
     # Social media
@@ -100,7 +113,7 @@ defaultContentLanguage = "en"
     contact_url = "/contact"
 
 [permalinks]
-    blog = "/blog/:year/:month/:day/:filename/"
+    blog = "/products/:year/:month/:day/:filename/"
 
 # Enable or disable top bar with social icons
 [params.topbar]
@@ -132,10 +145,12 @@ defaultContentLanguage = "en"
     content = "We work in close partnership with Kingpin to provider our customers with the best quality and selection."
     hide_summary = false
 
+# number of words of summarized post content (default 70)
+summaryLength = 15
+
 [params.footer.recent_posts]
     enable = false
 
 [taxonomies]
     category = "categories"
     tag = "tags"
-    author = "authors"

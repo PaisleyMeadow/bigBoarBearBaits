@@ -8,10 +8,31 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Trailmixes</title>
-      <link>http://localhost:1313/categories/trailmixes/</link>
+      <title>Extras</title>
+      <link>http://localhost:1313/categories/extras/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/trailmixes/</guid>
+      <guid>http://localhost:1313/categories/extras/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fillings</title>
+      <link>http://localhost:1313/categories/fillings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/fillings/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spreads</title>
+      <link>http://localhost:1313/categories/spreads/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/spreads/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Trail Mixes</title>
+      <link>http://localhost:1313/categories/trail-mixes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/trail-mixes/</guid>
       <description></description>
     </item>
   </channel>
