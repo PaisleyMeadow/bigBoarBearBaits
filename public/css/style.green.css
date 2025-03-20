@@ -1,6 +1,6 @@
 /* Themed colors */
 :root {
-  --primary-accent: #6aae7a;
+  --primary-accent: #577f5f;
   --navbar-border-top: #3f734b;
   --button-border: #4d8e5c;
   --link-focus: #488456;
@@ -1741,19 +1741,22 @@ fieldset[disabled] .btn-template-primary.active {
   border: none;
 }
 #heading-breadcrumbs {
-  background: url('../img/texture-green.png') center center repeat;
+  background: url('../img/trees-banner.jpg') center center no-repeat;
+  background-size: 100% auto;
   padding: 20px 0;
   margin-bottom: 40px;
+  /* opacity: 0.6; */
 }
 #heading-breadcrumbs.no-mb {
   margin-bottom: 0;
 }
 #heading-breadcrumbs h1 {
-  color: #333333;
+  color: #b5b8ba;
   text-transform: uppercase;
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.08em;
+  opacity: 1
 }
 @media (max-width: 991px) {
   #heading-breadcrumbs h1 {
@@ -1792,6 +1795,7 @@ fieldset[disabled] .btn-template-primary.active {
   background: url('../img/forest-background.jpg') center top no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-position: center; 
 }
 .bar.color-white h1,
 .bar.color-white h2,
@@ -2526,7 +2530,7 @@ fieldset[disabled] .btn-template-primary.active {
   margin: 0 0 20px;
 }
 #footer {
-  background: #555555;
+  background: #577f5f;
   padding: 50px 0;
   color: #999999;
 }
@@ -2622,7 +2626,7 @@ fieldset[disabled] .btn-template-primary.active {
   color: var(--primary-accent);
 }
 #copyright {
-  background: #333;
+  background: #052116;
   color: #ccc;
   padding: 50px 0;
   font-size: 12px;

@@ -37,7 +37,7 @@ defaultContentLanguage = "en"
 
     [[menu.main]]
         name       = "Attractants"
-        url        = "/"
+        url        = "/categories/attractants/"
         weight     = 2
         parent     = "menu.products"
 
@@ -55,7 +55,7 @@ defaultContentLanguage = "en"
 
     [[menu.main]]
         name       = "Extras"
-        url        = "/"
+        url        = "/categories/extras/"
         weight     = 5
         parent     = "menu.products"
 
@@ -105,10 +105,10 @@ defaultContentLanguage = "en"
 
     dropdown_mouse_over = false
 
-    disabled_logo = true
+    disabled_logo = false
     logo_text = "Big Boar Bear Baits"
 
-    logo = "img/logo.png"
+    logo = "img/logo-long.png"
     logo_small = "img/logo-small.png"
     contact_url = "/contact"
 
