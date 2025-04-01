@@ -4,6 +4,10 @@ theme = "universal"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/img'
+
 # Define the number of posts per page
 [params.pagination]
     pagerSize = 25
