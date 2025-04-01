@@ -8,6 +8,26 @@
   --pagination-bg: #cde4d2;
   --link-hover-bg: #519461;
   --navbar-focus: #acd2b5;
+
+  color-scheme: only light;
+}
+
+/* Firefox */
+@media (prefers-color-scheme: dark) {
+  :root {
+      color-scheme: light;
+  }
+}
+
+/* Chrome */
+@media (forced-colors: active) {
+  :root {
+      color-scheme: light;
+  }
+}
+
+body, html {
+  background-color: white !important;
 }
 
 .clearfix:before,
